@@ -1,5 +1,5 @@
 // No changes should be required in this file
-
+require('dotenv').config(); 
 const cookieSession = require('cookie-session');
 const warnings = require('../constants/warnings');
 
